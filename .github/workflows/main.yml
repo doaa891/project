@@ -8,12 +8,12 @@ on:
 
 jobs:
   build:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
 
-  steps:
-    - name: 'Testing Github action'
-      run: pwd
+    steps:
+      - name: 'Testing Github action'
+        run: pwd
 
       - name: 'Testing printing'
-      run: echo doaa
+        run: echo doaa
